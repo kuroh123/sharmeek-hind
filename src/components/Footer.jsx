@@ -4,7 +4,7 @@ import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 
 function Footer() {
   return (
-    <>
+    <footer>
       <div className="p-5 mt-5 secondary-bg-color">
         <Row>
           <Col>
@@ -57,7 +57,7 @@ function Footer() {
         </span>
         . All Rights Reserved.
       </div>
-    </>
+    </footer>
   );
 }
 
